@@ -1,35 +1,35 @@
-# Lina's Farm — Legal / Yasal Belgeler
+# kidolab — Legal / Yasal Belgeler
 
-  Legal documents for **Lina's Farm** (*Lina'nın Çiftliği*), an Android game for children aged 5–6 by kidolab.
-  kidolab'ın 5–6 yaş çocuklar için Android oyunu **Lina'nın Çiftliği**'nin yasal belgeleri.
+Legal documents (privacy policies and license notices) for the games published by kidolab-studio.
+kidolab-studio'nun yayımladığı oyunların yasal belgeleri (gizlilik politikaları ve lisans bildirimleri).
 
-  - **Privacy Policy / Gizlilik Politikası:** https://kidolab-studio.github.io/linasfarm-legal/privacy-policy
+| Game / Oyun | Documents / Belgeler | Contact / İletişim |
+| --- | --- | --- |
+| **Lina's Farm** (*Lina'nın Çiftliği*) | [Privacy Policy / Gizlilik Politikası](https://kidolab-studio.github.io/legal/linasfarm/privacy-policy) | emirsalihgumruk@gmail.com |
+| **Taktuk Köy** | [Privacy Policy / Gizlilik Politikası](https://kidolab-studio.github.io/legal/taktuk-koy/privacy-policy) · [Licenses / Lisanslar](https://kidolab-studio.github.io/legal/taktuk-koy/licenses) | benbilirim2004@gmail.com |
 
-  The game collects no personal data: it does not connect to the internet, shows no ads and has no in-app purchases.
-  Oyun hiçbir kişisel veri toplamaz: internete bağlanmaz, reklam göstermez, uygulama içi satın alma yoktur.
+---
 
-  Contact / İletişim: emirsalihgumruk@gmail.com
+## Bakım notları
 
-  ---
+### Yapı
 
-  ## Bakım notları
+- Her oyunun kendi klasörü var (`linasfarm/`, `taktuk-koy/`). İçinde `privacy-policy.html`, varsa
+  `licenses.html` ve o oyunun bakım notlarını tutan bir `README.md` bulunur.
+- Sayfaların adresi `https://kidolab-studio.github.io/legal/<klasör>/<dosya>` biçimindedir; `.html` uzantısı
+  yazılmadan da açılır.
+- Kökte `index.html` yok; GitHub Pages bu README'yi sitenin ana sayfası olarak yayınlar.
 
-  ### Dosyalar
+### Yeni oyun eklemek
 
-  - `privacy-policy.html` — gizlilik politikası; Türkçe ve İngilizce aynı sayfada.
-  - `README.md` — bu dosya. Repoda `index.html` olmadığı için GitHub Pages bunu sitenin ana sayfası
-    olarak da yayınlar.
+1. Oyun için kısa bir klasör aç: küçük harf, Türkçe karakter ve boşluk yok, gerekirse tire (`taktuk-koy`).
+2. İçine `privacy-policy.html` (Türkçe ve İngilizce aynı sayfada) ve oyunun `README.md`'sini koy; lisans
+   sayfası varsa `licenses.html`.
+3. Yukarıdaki tabloya oyunu ekle.
+4. `main` dalına gönder; GitHub Pages birkaç dakika içinde yayınlar.
 
-  ### Adres nerede kullanılıyor
+### Adresler değişirse
 
-  - Google Play Console → uygulama → gizlilik politikası alanı.
-  - Oyunun içinde, Ebeveyn Köşesi → "Gizlilik politikası" sayfasının sonunda (`scripts/ui/privacy_policy.gd`).
-
-  Dosyanın adı ya da reponun adı değişirse adres de değişir; iki yeri birlikte güncelle.
-
-  ### Güncelleme
-
-  1. `privacy-policy.html`'yi düzenle; Türkçe ve İngilizce bölümleri birlikte güncelle.
-  2. İki bölümdeki "Yürürlük tarihi" / "Effective date" satırını değişikliğin tarihiyle değiştir.
-  3. Oyunun içindeki metni de aynı şekilde güncelle (`scripts/ui/privacy_policy.gd`).
-  4. `main` dalına gönder; GitHub Pages birkaç dakika içinde yeni hali yayınlar.
+Bir klasörün ya da reponun adı değişirse o oyunun adresleri de değişir ve GitHub Pages eski adresi yeni adrese
+yönlendirmez. Google Play Console'daki gizlilik politikası alanını ve oyunun içindeki adresi birlikte güncelle
+(hangi dosyada olduğu oyunun klasöründeki README'de yazar).
