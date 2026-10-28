@@ -8,6 +8,7 @@ kidolab-studio'nun yayımladığı oyunların yasal belgeleri (gizlilik politika
 | **Lina's Farm** (*Lina'nın Çiftliği*) | [Privacy Policy / Gizlilik Politikası](https://kidolab-studio.github.io/legal/linasfarm/privacy-policy) | emirsalihgumruk@gmail.com |
 | **Taktuk Köy** | [Privacy Policy / Gizlilik Politikası](https://kidolab-studio.github.io/legal/taktuk-koy/privacy-policy) · [Licenses / Lisanslar](https://kidolab-studio.github.io/legal/taktuk-koy/licenses) | benbilirim2004@gmail.com |
 | **Bouncy Zoo** | [Privacy Policy / Gizlilik Politikası](https://kidolab-studio.github.io/legal/bouncy-zoo/privacy-policy) | emirsalihgumruk@gmail.com |
+| **PizzaTopia** | [Privacy Policy / Gizlilik Politikası](https://kidolab-studio.github.io/legal/pizzatopia/privacy-policy) | emirsalihgumruk@gmail.com |
 
 ---
 
@@ -15,7 +16,7 @@ kidolab-studio'nun yayımladığı oyunların yasal belgeleri (gizlilik politika
 
 ### Yapı
 
-- Her oyunun kendi klasörü var (`linasfarm/`, `taktuk-koy/`, `bouncy-zoo/`). İçinde `privacy-policy.html`, varsa
+- Her oyunun kendi klasörü var (`linasfarm/`, `taktuk-koy/`, `bouncy-zoo/`, `pizzatopia/`). İçinde `privacy-policy.html`, varsa
   `licenses.html` ve o oyunun bakım notlarını tutan bir `README.md` bulunur.
 - Sayfaların adresi `https://kidolab-studio.github.io/legal/<klasör>/<dosya>` biçimindedir; `.html` uzantısı
   yazılmadan da açılır.
